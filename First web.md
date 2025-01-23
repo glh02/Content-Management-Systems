@@ -10,37 +10,38 @@
                 margin: 0;
                 padding: 0;
             }
-          nav {
+            nav {
                 background-color: #333;
                 color: white;
                 padding: 10px;
                 text-align: center;
             }
-          nav a {
-                color: white;
-                margin: 0 15px;
+            nav a {
+                color: blue;
+                margin: 15px 15px;
                 text-decoration: none;
             }
-          nav a:hover {
+            nav a:hover {
                 text-decoration: underline;
             }
-          .page {
+            .page {
                 padding: 20px;
                 display: none;
             }
-          .page.active {
+            .page.active {
                 display: block;
             }
-          .image-container {
+            .image-container {
                 margin: 20px 0;
                 text-align: center;
             }
-          .image-container img {
+            .image-container img {
                 max-width: 100%;
                 height: auto;
             }
-          .image-container p {
+            .image-container p {
                 margin-top: 10px;
+                text-align: center;
                 font-size: 14px;
             }
         </style>
@@ -63,9 +64,6 @@
             <div class="image-container">
             <p>VK</p> 
             <img src="VK.png" alt="Description">
-            <!-- 在这里添加图片及对应的名称 -->
-            <!-- 示例： <img src="your-image1.jpg" alt="Description"> -->
-            <!-- 示例： <p>图片名称1</p> -->
             </div>
         </div>
       <div id="page2" class="page">
@@ -73,9 +71,6 @@
         <div class="image-container">
             <p>RE-45</p> 
             <img src="RE-45.png" alt="Description">
-            <!-- 在这里添加图片及对应的名称 -->
-            <!-- 示例： <img src="your-image2.jpg" alt="Description"> -->
-            <!-- 示例： <p>图片名称2</p> -->
         </div>
     </div>
 
@@ -84,9 +79,6 @@
         <div class="image-container">
             <p>R99</p> 
             <img src="R99.png" alt="Description">
-            <!-- 在这里添加图片及对应的名称 -->
-            <!-- 示例： <img src="your-image3.jpg" alt="Description"> -->
-            <!-- 示例： <p>图片名称3</p> -->
         </div>
     </div>
 </body>
