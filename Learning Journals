@@ -3,19 +3,34 @@ Learning Journals : 1/23
 Week 2
 
 
-1.Learning Activities & Resources:
-Learn how to use the basic html5 and javascript.
-Make a easy web on github with Joomla CMS.
-Learn how to use the git.
-Learn how to use the vscode to make a web.
-Learn how to use the Joomla with the Github.
+Here's a simple summary of today's learning:
+1. Joomla Installation and Setup
+
+    Installed XAMPP (local server environment with Apache and MySQL).
+    Downloaded and set up Joomla on the local server.
+    Created a MySQL database for Joomla to store data.
+
+2. Developing the Joomla Website
+
+    Created basic pages like Home, About, and Contact in Joomla.
+    Learned how to export static HTML files from Joomla.
+    Customized Joomla templates to match the desired design.
+
+3. GitHub Pages Deployment
+
+    Created a GitHub repository to store the website files.
+    Enabled GitHub Pages to host the static website.
+
+4. Next Steps
+
+    You can either continue to build your website locally using Joomla and export static HTML for GitHub Pages or host a dynamic Joomla site on a server.
 
 
 
-2.Estimated Hours:5
+Estimated Hours:5
 
 
-3.Content Insights
+Content Insights
 
 
 
