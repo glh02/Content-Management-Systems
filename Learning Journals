@@ -3,34 +3,66 @@ Learning Journals : 1/23
 Week 2
 
 
-Summary of today's learning:
-1. Joomla Installation and Setup
+Summary of today's learning and the problem:
 
-    Installed XAMPP (local server environment with Apache and MySQL).
-    Downloaded and set up Joomla on the local server.
-    Created a MySQL database for Joomla to store data.
+1.GitHub Deployment Basics
 
-2. Developing the Joomla Website
+    (1)Learned how to host a website on GitHub
+    (2)Initialized a Git repository and pushed code to GitHub
+    (3)Solved issues related to Git commits and pushes
 
-    Created basic pages like Home, About, and Contact in Joomla.
-    Learned how to export static HTML files from Joomla.
-    Customized Joomla templates to match the desired design.
+2.Installing & Configuring Joomla Locally
 
-3. GitHub Pages Deployment
+    (1)Used XAMPP to run a local server
+    (2)Downloaded and installed Joomla
+    (3)Configured the database and admin details
+    (4)Accessed the Joomla backend
 
-    Created a GitHub repository to store the website files.
-    Enabled GitHub Pages to host the static website.
+3.Customizing Joomla Website
 
-4. Next Steps
+    (1)Accessed Joomla front-end to view the site
+    (2)Fixed issues where the front-end was blank
+    (3)Started planning the three-page static website
 
-    You can either continue to build your website locally using Joomla and export static HTML for GitHub Pages or host a dynamic Joomla site on a server.
+4.Making the Site Accessible
+
+    (1)Learned how to allow LAN access (local IP)
+    (2)Explored the method to host a Joomla static site on GitHub Pages
 
 
 
-Estimated Hours:5
+
+Problem:
+
+1.Git Issues
+
+    (1)git is not recognized as an internal or external command → Solution: Install Git and set the environment variable
+    (2)Author identity unknown → Solution: Set Git user info using git config --global user.name and git config --global user.email
+    (3)fatal: repository not found → Solution: Check if the GitHub repository URL is correct
+    (4)failed to push some refs → Solution: Pull the remote repository using git pull origin Work-2 --allow-unrelated-histories and then push again
+
+2.XAMPP & MySQL Issues
+
+    (1)MySQL shutdown unexpectedly → Solution: Check if port 3306 is being used by another program, and try changing the MySQL port to 3307
+    (2)Couldn’t change port → Solution: Close programs (like Skype) that might be using port 3306
+
+3.Joomla Issues
+
+    (1)Unable to delete "installation" directory → Solution: Manually delete the Joomla installation folder
+    (2)Forgot Joomla login info → Solution: Reinstall Joomla
+    (3)Front-end not displaying content → Solution: Check if articles or menu items were correctly published
+
+4.Site Accessibility
+
+    (1)GitHub Pages doesn’t support Joomla dynamic sites → Solution: Use HTTrack to convert Joomla site to static HTML and then upload to GitHub
+    (2)LAN access issues → Solution: Check Windows Firewall and Apache configurations
 
 
-Content Insights
+
+
+Estimated Hours:7
+
+
 
 
 
