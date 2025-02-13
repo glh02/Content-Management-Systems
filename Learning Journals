@@ -17,7 +17,7 @@ If MySQL uses port 3307, update wp-config.php:
 define('DB_HOST', 'localhost:3307');
 Verify the database exists in phpMyAdmin.
 
-3. Use wordpress to make a web like week 1. Learning how to use the wordpress by myself.
+3. Use wordpress to make a web like week 1. Learning how to use the wordpress by myself. 
 
 
 4. Creating Two Interconnected Pages in WordPress
