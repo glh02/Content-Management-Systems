@@ -1,1 +1,22 @@
+Summary of Today's Learning
+1. Setting Up WordPress Locally
+XAMPP Installation Path: installed XAMPP in E:\JCU\Bridge\Content Management Systems\Xampp
+WordPress Directory: extracted WordPress to E:\JCU\Bridge\Content Management Systems\Xampp\Xampp\htdocs\wordpress
+Accessing WordPress: visit  http://localhost/wordpress
 
+2. Fixing "Error Establishing a Database Connection"
+Ensure MySQL is running (Start it in the XAMPP Control Panel).
+Check database credentials in wp-config.php:
+define('DB_NAME', 'wordpress_db'); //database name
+define('DB_USER', 'root');         // Default username is root
+define('DB_PASSWORD', '');         // Default password is empty
+define('DB_HOST', 'localhost');    // Default hostname is localhost
+If MySQL uses port 3307, update wp-config.php:
+define('DB_HOST', 'localhost:3307');
+Verify the database exists in phpMyAdmin.
+
+3. Use wordpress to make a web like week 1. Learning how to use the wordpress by myself.
+
+
+4. Creating Two Interconnected Pages in WordPress
+I make four pages for my web. When I finish my web design. I connect them. Use my first web to their father, connect other three pages.
