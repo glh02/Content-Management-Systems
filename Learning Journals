@@ -1,1 +1,24 @@
+Today, I learned how to work with WordPress child themes, which allow me to customize a website without modifying the parent theme directly. Here’s a summary of what I covered:
+
+    1.Creating a Child Theme:
+        I created a child theme folder and added a style.css and functions.php file.
+        I learned how to properly enqueue both parent and child theme styles using the wp_enqueue_style() function in functions.php.
+
+    2.Customizing CSS:
+        I modified the CSS in the child theme to change the appearance of the site, such as changing the color of the site title and adding custom styling for other elements.
+
+    3.Debugging:
+        I explored how to enable debugging in WordPress using the wp-config.php file to check if my customizations were loaded correctly. I also looked for the debug.log file in the wp-content directory to troubleshoot any issues.
+
+    4.Adding Footer Customization:
+        I learned how to add a custom footer in the child theme by modifying the footer.php file or using CSS to change the footer’s appearance.
+
+    5.Activating and Testing the Child Theme:
+        I activated the child theme in the WordPress admin dashboard and tested the changes by inspecting the source code to ensure that the child theme’s CSS was being applied correctly.
+
+    6.Exploring Further Customizations:
+        I explored various other customizations such as modifying fonts, colors, the navigation menu, and adding custom JavaScript. I also learned how to create custom page templates and functions in the child theme.
+
+Overall, this session was about understanding how to safely extend and customize WordPress using child themes. This allows me to make updates and changes to a site without interfering with the core files of the parent theme, ensuring that updates to the parent theme don’t overwrite my customizations.
+
 
