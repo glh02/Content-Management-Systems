@@ -1,1 +1,39 @@
+Learning Log - Team Project Setup & Collaboration Tools Integration
+1. CONNECT
 
+    All members connected with each other on LinkedIn for networking and future reference in the final report.
+
+2. COMMUNICATION
+
+    All members were added to a private Slack group for project communication.
+
+3. VERSION CONTROL
+
+    Logged into GitHub and joined or created the team's GitHub repository using the GitHub Classroom link.
+    If creating the repository, its name should match the Slack team name/number for easy identification.
+
+4. PROJECT PLANNING
+
+    One team member copied the Trello template board, set it to public, and invited all team members.
+    Trello is mainly used for task management and storing the group agreement, but the structure can be adjusted based on team preferences.
+    Alternatively, GitHub Projects can be used instead of Trello, especially for teams that focus on code and issue-based task management.
+
+5. INTEGRATION
+
+    The GitHub repository and Trello board were integrated with the Slack group for real-time updates and notifications.
+    Used the Slack command /github subscribe https://github.com/repo to subscribe to GitHub repository updates.
+    Trello alerts were linked to the Slack group to ensure team members receive timely task updates.
+
+6. GROUP AGREEMENT
+
+    The Group Agreement & Contacts section was completed in Trello.
+    Team expectations were discussed, including task assignments, communication methods, and working hours.
+    A skills assessment was conducted, with members specifying both technical skills (e.g., WordPress development, front-end design) and soft skills (e.g., communication, organization).
+
+Summary
+
+This session focused on setting up the team project, covering connectivity, communication, version control, project management, tool integration, and defining team expectations. These steps ensure smooth collaboration, improve efficiency, and lay a strong foundation for the project development.
+
+
+
+   3 hours
