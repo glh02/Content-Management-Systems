@@ -1,0 +1,53 @@
+/* 让图片居中对齐 */
+img {
+    display: block;
+    margin: 10px auto;
+    width: 300px; /* 你可以调整大小 */
+    border-radius: 10px; /* 图片圆角 */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* 添加阴影 */
+}
+
+/* 设置整体页面样式 */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+/* 设置标题样式 */
+h2 {
+    color: #ff4500;
+}
+
+/* 设置段落样式 */
+p {
+    font-size: 16px;
+    color: #333;
+    max-width: 800px;
+    margin: 10px auto;
+}
+
+/* 让按钮美观 */
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
