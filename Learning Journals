@@ -1,1 +1,37 @@
+Learning Journal – [Date]
+Estimated Hours:
 
+4 hours
+Learning Activities:
+
+    Read and followed a tutorial on PHP session management (PHP Manual)
+    Watched a YouTube video on PHP login systems with MySQL (Link)
+    Explored XAMPP MySQL database connection and troubleshooting
+
+Key Concepts Learned:
+
+    Session Management in PHP:
+        How to use session_start() to maintain user authentication across pages.
+        Storing user session variables and properly destroying them during logout.
+
+    Password Hashing & Security:
+        Understanding the importance of password_hash() and password_verify() for secure authentication.
+        Why storing plain text passwords is a security risk.
+
+    Database Connection in PHP (MySQL with PDO):
+        How to securely connect to a MySQL database using PDO (new PDO(...)).
+        Using prepare() and bindParam() to prevent SQL injection attacks.
+
+    Using include for Code Reusability:
+        How include 'header.php' and include 'footer.php' make the code cleaner.
+        The benefit of centralized file management for headers, footers, and database connections.
+
+Insights and Reflections:
+
+Today, I deepened my understanding of session management and secure user authentication in PHP. Initially, I struggled with handling sessions properly, as I encountered issues with session variables not persisting across pages. However, after reviewing the PHP manual and debugging, I realized the importance of calling session_start() at the very beginning of every PHP file that uses sessions.
+
+Another key insight was how password hashing works. Before today, I assumed that storing passwords directly in the database was acceptable, but learning about password_hash() and password_verify() showed me why hashing is critical for security. I also realized that using prepared statements is essential to prevent SQL injection, something I will always implement in future projects.
+
+Lastly, I saw how include statements significantly improve maintainability. Instead of repeating headers and footers on every page, I now structure my projects more efficiently by including shared components. This makes future modifications much easier.
+
+Overall, today’s learning experience was practical and immediately applicable to my project. While I still need more practice with debugging PHP errors, I now have a stronger foundation in session management and authentication.
