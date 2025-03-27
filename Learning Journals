@@ -1,1 +1,39 @@
+Study Log for week-8
 
+Date: 2025.3.27
+
+Study Duration: 4 hours
+
+
+1.Topics Covered:
+  Setting up WordPress locally using XAMPP
+  Resolving MySQL startup issues in XAMPP
+  Creating a database for WordPress
+  Installing and configuring WordPress
+  Developing a custom WordPress theme
+
+2.Key Learnings:
+  How to properly configure XAMPP for WordPress development
+  Troubleshooting MySQL errors and resolving blocked ports
+  Setting up and managing a WordPress database in phpMyAdmin
+  Installing WordPress and configuring database connection settings
+  Creating a custom WordPress theme structure and essential files
+
+3.Challenges Faced:
+  MySQL failed to start due to a blocked port
+  Understanding WordPress theme file structure
+  Connecting WordPress to the database without errors
+How I Tackled Those Challenges:
+  Changed MySQL port settings and checked for conflicts
+  Reviewed WordPress documentation and tutorials on theme development
+  Double-checked database credentials and configuration settings
+
+4.Study Resources Used:
+  WordPress official documentation
+  Online tutorials and YouTube videos on WordPress development
+  XAMPP and phpMyAdmin guides
+
+5.Practice & Application:
+  Installed WordPress locally and configured the environment
+  Created a custom theme folder and essential theme files (style.css, index.php, functions.php, etc.)
+  Registered a sidebar and added
