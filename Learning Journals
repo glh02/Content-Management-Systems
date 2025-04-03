@@ -1,1 +1,35 @@
+Learning Journal - April 3, 2025
+Today's Focus: Setting Up and Using Sass in a PHP Project
+
+Today, I worked on integrating Sass into my PHP project while using VS Code as my code editor. The process involved several key steps and challenges, but I successfully compiled and watched my SCSS files in real time.
+
+Key Learnings:
+1. Installing Sass and Node.js
+  I encountered issues running npm due to script execution policies.
+  Resolved them by adjusting system settings and ensuring Sass was properly installed.
+  Successfully executed sass --watch styles.scss styles.css to enable real-time compilation.
+
+2. Implementing Sass Features in My Project
+  Variables: Used to store colors and padding values.
+  Mixins: Created a reusable button style with dynamic background colors.
+  Extend/Inheritance: Defined a reusable box style for .card.
+  Nesting: Organized styles more cleanly within .container, .card, and its child elements.
+
+3. Applying Sass to My PHP Project
+  Ensured the generated styles.css was linked properly in header.php.
+  Used Sass classes in my HTML structure to reflect changes dynamically.
+  Verified that my styles were successfully applied to elements like buttons and cards.
+
+4. Challenges & Solutions:
+Command Not Found Error: Initially, sass --version didn’t work. I resolved this by verifying Node.js installation and configuring system permissions.
+File Not Found in Sass Compilation: Fixed by ensuring the correct path to styles.scss before running the sass --watch command.
+
+5. Next Steps:
+  Further optimize my Sass files for better maintainability.
+  Explore using partials (_filename.scss) for modular styling.
+  Experiment with more advanced Sass functionalities like loops and conditionals.
+
+6. Conclusion:
+  Today was a productive learning experience in setting up and using Sass effectively in my PHP project. With Sass now integrated, my styles are more structured, reusable, and scalable. 
+
 
